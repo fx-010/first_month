@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quotes</title>
+</head>
+<body>
+    <h1>Quotes and Authors</h1>
+    <!-- 调试：显示 data 的内容 -->
+    <p>Debug: {{ data }}</p >
+    <table border="1">
+        <tr>
+            <th>Quote</th>
+            <th>Author</th>
+        </tr>
+        {% if data %}
+            {% for row in data %}
+            <tr>
+                <td>{{ row["Quote"] }}</td>
+                <td>{{ row["Author"] }}</td>
+            </tr>
+            {% endfor %}
+        {% else %}
+            <tr>
+                <td colspan="2">No data available</td>
+            </tr>
+        {% endif %}
+    </table>
+</body>
+</html>

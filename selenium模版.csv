@@ -1,0 +1,11 @@
+# 核心模块，启动浏览器
+from selenium import webdriver
+# 提供定位元素方式
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+# 提供显式等待功能；提供各种等待条件
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+# 用来配置ChromeDriver的服务;第三方库,自动下载与管理ChromeDriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
