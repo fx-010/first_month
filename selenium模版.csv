@@ -11,3 +11,6 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 git push origin master
+
+plt.rcParams['font.sans-serif'] = ['SimHei']  # 指定默认字体为 SimHei
+plt.rcParams['axes.unicode_minus'] = False    # 解决负号显示为方框的问题
