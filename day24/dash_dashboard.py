@@ -4,7 +4,7 @@ import dash
 from dash import dcc, html# Dash 的组件库，比如下拉菜单、图表等
 from dash.dependencies import Input, Output# 定义交互逻辑（比如选择下拉菜单后更新图表）
 
-df = pd.read_csv(r"E:\exercise_studying project\day24\sales_data.csv")
+df = pd.read_csv(r"E:\first_month\day24\sales_data.csv")
 
 # 初始化 Dash 应用并设计布局
 app = dash.Dash(__name__)

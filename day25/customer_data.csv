@@ -1,0 +1,11 @@
+CustomerID,Name,Age,Gender,PurchaseAmount,JoinDate
+1001,Alice,25,Female,250.5,2022-05-01
+1002,Bob,,Male,180.2,2022-06-15
+1003,Charlie,35,Male,,2022-07-10
+1004,David,28,Male,310.0,2022-08-05
+1005,Eva,30,Female,200.0,
+1006,Frank,40,Male,400.0,2022-10-20
+1007,Grace,32,Female,,2022-11-02
+1008,Hank,27,Male,290.0,2022-12-10
+1009,Ivy,29,Female,330.0,2023-01-15
+1010,Jack,26,Male,150.0,2023-02-20
